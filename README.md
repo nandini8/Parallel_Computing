@@ -15,27 +15,35 @@ pip install -r requirements.txt
     
     MPI implementation in python
     
-    ```mpirun -np <number of processors> search.py```
+    ```
+    mpirun -np <number of processors> search.py
+    ```
 
 2. pi.c
 
     Design Parallel pi calculating Algorithm and Implement using OpenMP;
     
-    ```gcc -o omp_pi -fopenmp pi.c
-    ./omp_pi```
+    ```
+    gcc -o omp_pi -fopenmp pi.c
+    ./omp_pi
+    ```
 
 3. multipy.c
 
     Design Parallel Matrix Multiplication Algorithm and Implement using OpenMP
     
-    ```gcc -fopenmp -o multiply -std=c99  multipy.c
-    ./multiply```
+    ```
+    gcc -fopenmp -o multiply -std=c99  multipy.c
+    ./multiply
+    ```
 
 4. vecmul.c
 
     Design Parallel Vector Matrix Multiplication Algorithm and Implement using OpenMP
     
-    ```gcc -fopenmp -o vec vecmul.c 
-    ./vec```
+    ```
+    gcc -fopenmp -o vec vecmul.c 
+    ./vec
+    ```
     
 
